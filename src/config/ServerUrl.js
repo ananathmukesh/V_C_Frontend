@@ -8,14 +8,14 @@
 // const senderreceiverDoc = "http://localhost:8001/assets/SndRcvdPDF";
 
 
-const serverUrl = "https://backend-v.onrender.com//api";
-const chatserverUrl = "https://backend-v.onrender.com//chat";
+const serverUrl = "https://backend-v.onrender.com/api";
+const chatserverUrl = "https://backend-v.onrender.com/chat";
 
-const livenodeUrl = "https://backend-v.onrender.com//";
+const livenodeUrl = "https://backend-v.onrender.com";
 
-const senderreceiverImg = "https://backend-v.onrender.com//assets/SndRcvdImage/";
-const senderreceiverVideo = "https://backend-v.onrender.com//assets/SndRcvdVideo";
-const senderreceiverDoc = "https://backend-v.onrender.com//assets/SndRcvdPDF";
+const senderreceiverImg = "https://backend-v.onrender.com/assets/SndRcvdImage";
+const senderreceiverVideo = "https://backend-v.onrender.com/assets/SndRcvdVideo";
+const senderreceiverDoc = "https://backend-v.onrender.com/assets/SndRcvdPDF";
 
 export { 
     serverUrl, 
