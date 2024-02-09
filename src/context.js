@@ -5,7 +5,7 @@ import Peer from "simple-peer";
 const SocketContext = createContext();
 
 //dev url
-const socket = io("http://localhost:5001");
+const socket = io("https://backend-v.onrender.com");
 
 //prod url
 //const socket = io('https://videocall-0llq.onrender.com/')
