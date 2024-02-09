@@ -86,7 +86,7 @@ const SignIn = () => {
 
     try {
       const res = await axios.post( `https://backend-v.onrender.com/api/signin`,data);
-      console.log(res.data.data.message);
+      console.log(res.data.data);
       if(res.data){
         if(res.data.code==200){
           window.localStorage.setItem('auth',JSON.stringify(res.data.data));
@@ -95,7 +95,7 @@ const SignIn = () => {
          toast.success(res.data.data.message);
         } else{
           console.log(res);
-          toast.error(res.data.data.message);
+          //toast.error(res.data.data);
         }
       }
 
